@@ -41,6 +41,9 @@ var Mask = Overlay.extend({
             this.set('width', doc.outerWidth(true));
             this.set('height', doc.outerHeight(true));
         }
+        $('body').css({
+            overflow: 'hidden'
+        });
         return Mask.superclass.show.call(this);
     },
 
@@ -57,6 +60,9 @@ var Mask = Overlay.extend({
             this.set('zIndex', zIndex[zIndex.length - 1]);
             return this;
         } else {
+            $('body').css({
+                overflow: ''
+            });
             return Mask.superclass.hide.call(this);
         }
     },
