@@ -1,0 +1,9 @@
+{
+    "name": "gazira-mask",
+    "version": "0.0.1",
+    "main": "index.js",
+    "dependencies": {
+        "component/jquery": "1.0.0",
+        "gazira/overlay": "master"
+    }
+}
