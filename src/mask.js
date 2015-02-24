@@ -1,5 +1,5 @@
 var $ = require('jquery'),
-    Overlay = require('overlay'),
+    Overlay = require('arale-overlay'),
 
 
     ua = (window.navigator.userAgent || '').toLowerCase(),
