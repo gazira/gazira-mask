@@ -1,0 +1,28 @@
+{
+    "name": "gazira-mask",
+    "version": "0.0.1",
+    "description": "遮罩层组件，支持多层遮罩",
+    "keywords": [
+        "widget", "mask"
+    ],
+    "author": "洪军钊 <caolvchong@gmail.com>",
+    "maintainers": [
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gazira/gazira-mask"
+    },
+    "bugs": {
+        "url": "https://github.com/gazira/gazira-mask/issues"
+    },
+    "spm": {
+        "main": "index.js",
+        "dependencies": {
+            "jquery": "1.11.1",
+            "arale-overlay": "1.2.0"
+        },
+        "devDependencies": {
+        },
+        "buildArgs": "--ignore jquery"
+    }
+}
