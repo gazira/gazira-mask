@@ -4,6 +4,6 @@
     "main": "index.js",
     "dependencies": {
         "component/jquery": "1.0.0",
-        "gazira/overlay": "master"
+        "gazira/arale-overlay": "1.2.0"
     }
 }
